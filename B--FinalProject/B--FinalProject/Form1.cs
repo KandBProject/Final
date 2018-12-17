@@ -10,11 +10,12 @@ using System.Windows.Forms;
 
 namespace B__FinalProject
 {
-    public partial class Form1 : Form
+    public partial class HittingView : Form
     {
-        public Form1()
+        public HittingView()
         {
             InitializeComponent();
         }
+
     }
 }
