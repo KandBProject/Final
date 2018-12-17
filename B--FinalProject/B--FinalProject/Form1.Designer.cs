@@ -50,6 +50,7 @@
             // btnLow
             // 
             this.btnLow.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btnLow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnLow.Location = new System.Drawing.Point(514, 86);
             this.btnLow.Name = "btnLow";
             this.btnLow.Size = new System.Drawing.Size(75, 23);
