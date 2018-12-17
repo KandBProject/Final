@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace B__FinalProject
 {
-    public partial class Foul : Form
+    public partial class AerialView : Form
     {
-        public Foul()
+        public AerialView()
         {
             InitializeComponent();
         }
