@@ -57,6 +57,7 @@
             this.btnLow.TabIndex = 1;
             this.btnLow.Text = "Low";
             this.btnLow.UseVisualStyleBackColor = false;
+            this.btnLow.Click += new System.EventHandler(this.btnLow_Click);
             // 
             // btnMedium
             // 

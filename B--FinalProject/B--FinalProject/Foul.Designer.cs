@@ -58,6 +58,7 @@
             this.lblFoulLow1.Size = new System.Drawing.Size(53, 24);
             this.lblFoulLow1.TabIndex = 0;
             this.lblFoulLow1.Text = "Foul!";
+            this.lblFoulLow1.Visible = false;
             // 
             // lblFoulLow2
             // 
@@ -70,6 +71,7 @@
             this.lblFoulLow2.Size = new System.Drawing.Size(53, 24);
             this.lblFoulLow2.TabIndex = 1;
             this.lblFoulLow2.Text = "Foul!";
+            this.lblFoulLow2.Visible = false;
             // 
             // lblFoulMedium1
             // 
@@ -82,6 +84,7 @@
             this.lblFoulMedium1.Size = new System.Drawing.Size(53, 24);
             this.lblFoulMedium1.TabIndex = 2;
             this.lblFoulMedium1.Text = "Foul!";
+            this.lblFoulMedium1.Visible = false;
             // 
             // lblFoulHigh1
             // 
@@ -94,6 +97,7 @@
             this.lblFoulHigh1.Size = new System.Drawing.Size(53, 24);
             this.lblFoulHigh1.TabIndex = 3;
             this.lblFoulHigh1.Text = "Foul!";
+            this.lblFoulHigh1.Visible = false;
             // 
             // lblFoulHigh2
             // 
@@ -106,6 +110,7 @@
             this.lblFoulHigh2.Size = new System.Drawing.Size(53, 24);
             this.lblFoulHigh2.TabIndex = 4;
             this.lblFoulHigh2.Text = "Foul!";
+            this.lblFoulHigh2.Visible = false;
             // 
             // lblFoulMedium2
             // 
@@ -118,6 +123,7 @@
             this.lblFoulMedium2.Size = new System.Drawing.Size(53, 24);
             this.lblFoulMedium2.TabIndex = 5;
             this.lblFoulMedium2.Text = "Foul!";
+            this.lblFoulMedium2.Visible = false;
             // 
             // lblSafeLow1
             // 
@@ -130,6 +136,7 @@
             this.lblSafeLow1.Size = new System.Drawing.Size(52, 24);
             this.lblSafeLow1.TabIndex = 6;
             this.lblSafeLow1.Text = "Safe!";
+            this.lblSafeLow1.Visible = false;
             // 
             // lblSafeLow2
             // 
@@ -142,6 +149,7 @@
             this.lblSafeLow2.Size = new System.Drawing.Size(52, 24);
             this.lblSafeLow2.TabIndex = 7;
             this.lblSafeLow2.Text = "Safe!";
+            this.lblSafeLow2.Visible = false;
             // 
             // lblSafeMedium1
             // 
@@ -154,6 +162,7 @@
             this.lblSafeMedium1.Size = new System.Drawing.Size(52, 24);
             this.lblSafeMedium1.TabIndex = 8;
             this.lblSafeMedium1.Text = "Safe!";
+            this.lblSafeMedium1.Visible = false;
             // 
             // lblSafeMedium2
             // 
@@ -166,6 +175,7 @@
             this.lblSafeMedium2.Size = new System.Drawing.Size(52, 24);
             this.lblSafeMedium2.TabIndex = 9;
             this.lblSafeMedium2.Text = "Safe!";
+            this.lblSafeMedium2.Visible = false;
             // 
             // lblSafeHigh1
             // 
@@ -178,6 +188,7 @@
             this.lblSafeHigh1.Size = new System.Drawing.Size(52, 24);
             this.lblSafeHigh1.TabIndex = 10;
             this.lblSafeHigh1.Text = "Safe!";
+            this.lblSafeHigh1.Visible = false;
             // 
             // lblSafeHigh2
             // 
@@ -190,6 +201,7 @@
             this.lblSafeHigh2.Size = new System.Drawing.Size(52, 24);
             this.lblSafeHigh2.TabIndex = 11;
             this.lblSafeHigh2.Text = "Safe!";
+            this.lblSafeHigh2.Visible = false;
             // 
             // lblOutMedium1
             // 
@@ -202,6 +214,7 @@
             this.lblOutMedium1.Size = new System.Drawing.Size(45, 24);
             this.lblOutMedium1.TabIndex = 12;
             this.lblOutMedium1.Text = "Out!";
+            this.lblOutMedium1.Visible = false;
             // 
             // lblOutMedium2
             // 
@@ -214,6 +227,7 @@
             this.lblOutMedium2.Size = new System.Drawing.Size(45, 24);
             this.lblOutMedium2.TabIndex = 13;
             this.lblOutMedium2.Text = "Out!";
+            this.lblOutMedium2.Visible = false;
             // 
             // lblOutMedium3
             // 
@@ -226,6 +240,7 @@
             this.lblOutMedium3.Size = new System.Drawing.Size(45, 24);
             this.lblOutMedium3.TabIndex = 14;
             this.lblOutMedium3.Text = "Out!";
+            this.lblOutMedium3.Visible = false;
             // 
             // lblOutLow
             // 
@@ -238,6 +253,7 @@
             this.lblOutLow.Size = new System.Drawing.Size(45, 24);
             this.lblOutLow.TabIndex = 15;
             this.lblOutLow.Text = "Out!";
+            this.lblOutLow.Visible = false;
             // 
             // AerialView
             // 
