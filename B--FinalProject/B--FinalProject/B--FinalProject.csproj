@@ -57,8 +57,10 @@
     <Compile Include="Foul.Designer.cs">
       <DependentUpon>Foul.cs</DependentUpon>
     </Compile>
+    <Compile Include="LowPower.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ranNumberGenerator\Next.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
