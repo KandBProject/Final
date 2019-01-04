@@ -68,6 +68,7 @@
             this.btnMedium.TabIndex = 2;
             this.btnMedium.Text = "Medium";
             this.btnMedium.UseVisualStyleBackColor = false;
+            this.btnMedium.Click += new System.EventHandler(this.btnMedium_Click);
             // 
             // btnHigh
             // 
@@ -78,6 +79,7 @@
             this.btnHigh.TabIndex = 3;
             this.btnHigh.Text = "High";
             this.btnHigh.UseVisualStyleBackColor = false;
+            this.btnHigh.Click += new System.EventHandler(this.btnHigh_Click);
             // 
             // HittingView
             // 
