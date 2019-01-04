@@ -12,6 +12,7 @@ namespace B__FinalProject
 {
     public partial class HittingView : Form
     {
+       
         public HittingView()
         {
             InitializeComponent();
@@ -20,6 +21,7 @@ namespace B__FinalProject
         public void btnLow_Click(object sender, EventArgs e)
         {
             lowPower();
+           
         }
         public void lowPower()
         {
@@ -27,23 +29,27 @@ namespace B__FinalProject
             int FoulBall;
             int Strike;
             int Safe;
+          
+            int minPlay = 1;
+            int MaxPlay = 4;
+
+            var foul = new AerialView();
+            foul.Show();
+
             int minHit = 1;
             int maxHit = 5;
-            int minPlay = 1;
-            int MaxPlay = 
-
-
-
-            Random ranNumberGenerator = new Random();
-            int randomNumber;
-            randomNumber = ranNumberGenerator.Next(minHit, maxHit);
+            Random ranNumberG = new Random();
+            int randomNumber = ranNumberG.Next(minHit, maxHit);
 
 
 
             if (randomNumber == 1)
             {
-                var foul = new AerialView();
-                foul.Show();
+                
+            }
+            else if(randomNumber == 2)
+            {
+
             }
 
 
