@@ -57,7 +57,9 @@
     <Compile Include="Foul.Designer.cs">
       <DependentUpon>Foul.cs</DependentUpon>
     </Compile>
+    <Compile Include="HighPower.cs" />
     <Compile Include="LowPower.cs" />
+    <Compile Include="MedPower.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ranNumberGenerator\Next.cs" />
