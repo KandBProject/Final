@@ -33,6 +33,12 @@
             this.btnLow = new System.Windows.Forms.Button();
             this.btnMedium = new System.Windows.Forms.Button();
             this.btnHigh = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -81,6 +87,56 @@
             this.btnHigh.UseVisualStyleBackColor = false;
             this.btnHigh.Click += new System.EventHandler(this.btnHigh_Click);
             // 
+            // label2
+            // 
+            this.label2.Location = new System.Drawing.Point(153, 31);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(41, 28);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Outs :   0";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(23, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(117, 13);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Home Team Score :   0";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(153, 9);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(115, 13);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Away Team Score :   0";
+            // 
+            // label5
+            // 
+            this.label5.Location = new System.Drawing.Point(208, 31);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(54, 28);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Inning :   1";
+            // 
+            // label6
+            // 
+            this.label6.Location = new System.Drawing.Point(80, 31);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(54, 28);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "Strikes :   0";
+            // 
+            // label7
+            // 
+            this.label7.Location = new System.Drawing.Point(22, 31);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(52, 28);
+            this.label7.TabIndex = 9;
+            this.label7.Text = "Balls :    0";
+            // 
             // HittingView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -88,6 +144,12 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btnHigh);
             this.Controls.Add(this.btnMedium);
             this.Controls.Add(this.btnLow);
@@ -105,6 +167,12 @@
         private System.Windows.Forms.Button btnLow;
         private System.Windows.Forms.Button btnMedium;
         private System.Windows.Forms.Button btnHigh;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }
 

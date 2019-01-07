@@ -37,5 +37,6 @@ namespace B__FinalProject
             var click = new AerialView();
             click.Show();
         }
-    }
+
+      
 }
