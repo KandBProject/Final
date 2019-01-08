@@ -20,22 +20,19 @@ namespace B__FinalProject
        
         public void btnLow_Click(object sender, EventArgs e)
         {
-            LowPower.lowPower();
-            var click = new AerialView();
-            click.Show();
+            AerialView ar = new AerialView(1);
+            ar.ShowDialog();
         }
 
         private void btnMedium_Click(object sender, EventArgs e)
         {
-            MedPower.medPower();
-            var click = new AerialView();
-            click.Show();
+            AerialView ar = new AerialView(2);
+            ar.ShowDialog();
         }
         private void btnHigh_Click(object sender, EventArgs e)
         {
-            HighPower.highPower();
-            var click = new AerialView();
-            click.Show();
+            AerialView ar = new AerialView(3);
+            ar.ShowDialog();
         }
 
       
