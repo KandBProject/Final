@@ -12,6 +12,8 @@ namespace B__FinalProject
 {
     public partial class AerialView : Form
     {
+        private System.Windows.Forms.Timer tmr;
+
         public AerialView(int x)
         {
 
@@ -27,6 +29,12 @@ namespace B__FinalProject
             {
                 highPower();
             }
+            tmr = new System.Windows.Forms.Timer();
+            tmr.Tick += delegate {
+                this.Close();
+            };
+            tmr.Interval = (int)TimeSpan.FromSeconds(2.3).TotalMilliseconds;
+            tmr.Start();
         }
         public void LowPower()
         {
@@ -178,6 +186,5 @@ namespace B__FinalProject
                 lblSafeHigh3.Visible = true;
             }
         }
-
     }
 }
