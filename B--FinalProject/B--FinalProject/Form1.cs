@@ -12,12 +12,12 @@ namespace B__FinalProject
 {
     public partial class HittingView : Form
     {
-       
+
         public HittingView()
         {
             InitializeComponent();
         }
-       
+
         public void btnLow_Click(object sender, EventArgs e)
         {
             AerialView ar = new AerialView(1);
@@ -35,5 +35,6 @@ namespace B__FinalProject
             ar.ShowDialog();
         }
 
-      
+
+    }
 }
