@@ -51,7 +51,7 @@
             this.lblOutHigh3 = new System.Windows.Forms.Label();
             this.lblOutHigh2 = new System.Windows.Forms.Label();
             this.lblOutHigh1 = new System.Windows.Forms.Label();
-            this.lblMediumOut4 = new System.Windows.Forms.Label();
+            this.lblOutMedium4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblFoulLow1
@@ -340,18 +340,18 @@
             this.lblOutHigh1.Text = "Out!";
             this.lblOutHigh1.Visible = false;
             // 
-            // lblMediumOut4
+            // lblOutMedium4
             // 
-            this.lblMediumOut4.AutoSize = true;
-            this.lblMediumOut4.BackColor = System.Drawing.Color.Transparent;
-            this.lblMediumOut4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMediumOut4.ForeColor = System.Drawing.Color.Red;
-            this.lblMediumOut4.Location = new System.Drawing.Point(478, 107);
-            this.lblMediumOut4.Name = "lblMediumOut4";
-            this.lblMediumOut4.Size = new System.Drawing.Size(45, 24);
-            this.lblMediumOut4.TabIndex = 22;
-            this.lblMediumOut4.Text = "Out!";
-            this.lblMediumOut4.Visible = false;
+            this.lblOutMedium4.AutoSize = true;
+            this.lblOutMedium4.BackColor = System.Drawing.Color.Transparent;
+            this.lblOutMedium4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOutMedium4.ForeColor = System.Drawing.Color.Red;
+            this.lblOutMedium4.Location = new System.Drawing.Point(478, 107);
+            this.lblOutMedium4.Name = "lblOutMedium4";
+            this.lblOutMedium4.Size = new System.Drawing.Size(45, 24);
+            this.lblOutMedium4.TabIndex = 22;
+            this.lblOutMedium4.Text = "Out!";
+            this.lblOutMedium4.Visible = false;
             // 
             // AerialView
             // 
@@ -360,7 +360,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(796, 450);
-            this.Controls.Add(this.lblMediumOut4);
+            this.Controls.Add(this.lblOutMedium4);
             this.Controls.Add(this.lblOutHigh1);
             this.Controls.Add(this.lblOutHigh2);
             this.Controls.Add(this.lblOutHigh3);
@@ -414,6 +414,6 @@
         private System.Windows.Forms.Label lblOutHigh3;
         private System.Windows.Forms.Label lblOutHigh2;
         private System.Windows.Forms.Label lblOutHigh1;
-        private System.Windows.Forms.Label lblMediumOut4;
+        private System.Windows.Forms.Label lblOutMedium4;
     }
 }
