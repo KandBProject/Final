@@ -23,6 +23,10 @@ namespace B__FinalProject
             if (x == 2) {
                 medPower();
             }
+            if (x == 3)
+            {
+                highPower();
+            }
         }
         public void LowPower()
         {
@@ -76,7 +80,7 @@ namespace B__FinalProject
 
 
             int minHit = 1;
-            int maxHit = 7;
+            int maxHit = 9;
             Random ranNumberG = new Random();
             int randomNumber = ranNumberG.Next(minHit, maxHit);
 
@@ -104,13 +108,75 @@ namespace B__FinalProject
             }
             else if (randomNumber == 6)
             {
-                lblSafeMedium1.Visible = true;
+                lblOutMedium4.Visible = true;
             }
             else if (randomNumber == 7)
             {
+                lblSafeMedium1.Visible = true;
+            }
+            else if (randomNumber == 8)
+            {
                 lblSafeMedium2.Visible = true;
             }
+            else if (randomNumber == 9)
+            {
+                lblSafeMedium3.Visible = true;
+            }
 
+        }
+        public void highPower()
+        {
+            //int Out;
+            //int FoulBall;
+            //int Strike;
+            //int Safe;
+
+            //int minPlay = 1;
+            //int MaxPlay = 4;
+
+
+            int minHit = 1;
+            int maxHit = 9;
+            Random ranNumberG = new Random();
+            int randomNumber = ranNumberG.Next(minHit, maxHit);
+
+
+            if (randomNumber == 1)
+            {
+                lblFoulHigh1.Visible = true;
+            }
+            else if (randomNumber == 2)
+            {
+                lblFoulHigh2.Visible = true;
+            }
+            else if (randomNumber == 3)
+            {
+                lblOutHigh1.Visible = true;
+            }
+            else if (randomNumber == 4)
+            {
+                lblOutHigh2.Visible = true;
+            }
+            else if (randomNumber == 5)
+            {
+                lblOutHigh3.Visible = true;
+            }
+            else if (randomNumber == 6)
+            {
+                lblSafeHigh1.Visible = true;
+            }
+            else if (randomNumber == 7)
+            {
+                lblSafeHigh2.Visible = true;
+            }
+            else if (randomNumber == 8)
+            {
+                lblSafeHigh3.Visible = true;
+            }
+            else if (randomNumber == 9)
+            {
+                lblSafeHigh3.Visible = true;
+            }
         }
 
     }
