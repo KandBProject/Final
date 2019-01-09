@@ -73,6 +73,16 @@ namespace B__FinalProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap baseball {
+            get {
+                object obj = ResourceManager.GetObject("baseball", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BaseballBat {
             get {
                 object obj = ResourceManager.GetObject("BaseballBat", resourceCulture);
@@ -93,9 +103,29 @@ namespace B__FinalProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Best_Hitter {
+            get {
+                object obj = ResourceManager.GetObject("Best_Hitter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap HittingView {
             get {
                 object obj = ResourceManager.GetObject("HittingView", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap scoreboard {
+            get {
+                object obj = ResourceManager.GetObject("scoreboard", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
