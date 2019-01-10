@@ -14,6 +14,8 @@ namespace B__FinalProject
     {
         private System.Windows.Forms.Timer tmr;
 
+        int Strike = 0;
+
         public AerialView(int x)
         {
 
@@ -41,11 +43,10 @@ namespace B__FinalProject
          
             //int Out;
             //int FoulBall;
-            //int Strike;
             //int Safe;
 
-            //int minPlay = 1;
-            //int MaxPlay = 4;
+            int minPlay = 1;
+            int maxPlay = 3;
 
 
             int minHit = 1;
@@ -75,6 +76,17 @@ namespace B__FinalProject
                 {
                     lblOutLow.Visible = true;
                 }
+
+            Random StrikeBallHit = new Random();
+            int play = StrikeBallHit.Next(minPlay, maxPlay);
+
+            if(play == 1)
+            {
+                //strike
+                Strike++;
+                HittingView hv = new HittingView(Strike);
+                hv.ShowDialog();
+            }
         }
         public void medPower()
         {
@@ -186,5 +198,11 @@ namespace B__FinalProject
                 lblSafeHigh3.Visible = true;
             }
         }
+        public void displayStrike(int strikeTest) {
+            int sendStrikeInfo = strikeTest;
+            string s;
+            s = sendStrikeInfo.ToString();
+        }
+       
     }
 }
