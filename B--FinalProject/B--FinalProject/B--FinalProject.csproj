@@ -111,7 +111,7 @@
     <None Include="Resources\baseballhitter.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Scoreboard.jpg" />
+
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
