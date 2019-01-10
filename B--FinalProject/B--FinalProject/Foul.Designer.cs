@@ -164,7 +164,7 @@
             this.lblSafeMedium1.BackColor = System.Drawing.Color.Transparent;
             this.lblSafeMedium1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSafeMedium1.ForeColor = System.Drawing.Color.Blue;
-            this.lblSafeMedium1.Location = new System.Drawing.Point(370, 96);
+            this.lblSafeMedium1.Location = new System.Drawing.Point(377, 84);
             this.lblSafeMedium1.Name = "lblSafeMedium1";
             this.lblSafeMedium1.Size = new System.Drawing.Size(52, 24);
             this.lblSafeMedium1.TabIndex = 8;
@@ -177,7 +177,7 @@
             this.lblSafeMedium2.BackColor = System.Drawing.Color.Transparent;
             this.lblSafeMedium2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSafeMedium2.ForeColor = System.Drawing.Color.Blue;
-            this.lblSafeMedium2.Location = new System.Drawing.Point(539, 172);
+            this.lblSafeMedium2.Location = new System.Drawing.Point(539, 152);
             this.lblSafeMedium2.Name = "lblSafeMedium2";
             this.lblSafeMedium2.Size = new System.Drawing.Size(52, 24);
             this.lblSafeMedium2.TabIndex = 9;
@@ -294,7 +294,7 @@
             this.lblSafeMedium3.BackColor = System.Drawing.Color.Transparent;
             this.lblSafeMedium3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSafeMedium3.ForeColor = System.Drawing.Color.Blue;
-            this.lblSafeMedium3.Location = new System.Drawing.Point(167, 158);
+            this.lblSafeMedium3.Location = new System.Drawing.Point(188, 152);
             this.lblSafeMedium3.Name = "lblSafeMedium3";
             this.lblSafeMedium3.Size = new System.Drawing.Size(52, 24);
             this.lblSafeMedium3.TabIndex = 18;
@@ -307,7 +307,7 @@
             this.lblOutHigh3.BackColor = System.Drawing.Color.Transparent;
             this.lblOutHigh3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOutHigh3.ForeColor = System.Drawing.Color.Red;
-            this.lblOutHigh3.Location = new System.Drawing.Point(687, 27);
+            this.lblOutHigh3.Location = new System.Drawing.Point(662, 27);
             this.lblOutHigh3.Name = "lblOutHigh3";
             this.lblOutHigh3.Size = new System.Drawing.Size(45, 24);
             this.lblOutHigh3.TabIndex = 19;
@@ -333,7 +333,7 @@
             this.lblOutHigh1.BackColor = System.Drawing.Color.Transparent;
             this.lblOutHigh1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOutHigh1.ForeColor = System.Drawing.Color.Red;
-            this.lblOutHigh1.Location = new System.Drawing.Point(60, 27);
+            this.lblOutHigh1.Location = new System.Drawing.Point(82, 27);
             this.lblOutHigh1.Name = "lblOutHigh1";
             this.lblOutHigh1.Size = new System.Drawing.Size(45, 24);
             this.lblOutHigh1.TabIndex = 21;
