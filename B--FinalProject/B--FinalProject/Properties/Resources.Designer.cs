@@ -123,9 +123,7 @@ namespace B__FinalProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap scoreboard {
-            get {
-                object obj = ResourceManager.GetObject("scoreboard", resourceCulture);
+
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
