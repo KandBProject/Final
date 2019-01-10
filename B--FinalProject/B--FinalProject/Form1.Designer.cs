@@ -33,12 +33,18 @@
             this.btnLow = new System.Windows.Forms.Button();
             this.btnMedium = new System.Windows.Forms.Button();
             this.btnHigh = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblHome = new System.Windows.Forms.Label();
+            this.lblAway = new System.Windows.Forms.Label();
+            this.lblBall = new System.Windows.Forms.Label();
+            this.lblHomeValue = new System.Windows.Forms.Label();
+            this.lblAwayValue = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblOutValue = new System.Windows.Forms.Label();
+            this.lblStrikeValue = new System.Windows.Forms.Label();
+            this.lblBallValue = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lblInningValue = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -47,7 +53,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(511, 55);
+            this.label1.Location = new System.Drawing.Point(511, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(277, 16);
             this.label1.TabIndex = 0;
@@ -57,7 +63,7 @@
             // 
             this.btnLow.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.btnLow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnLow.Location = new System.Drawing.Point(514, 86);
+            this.btnLow.Location = new System.Drawing.Point(514, 54);
             this.btnLow.Name = "btnLow";
             this.btnLow.Size = new System.Drawing.Size(75, 23);
             this.btnLow.TabIndex = 1;
@@ -68,7 +74,7 @@
             // btnMedium
             // 
             this.btnMedium.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.btnMedium.Location = new System.Drawing.Point(616, 86);
+            this.btnMedium.Location = new System.Drawing.Point(616, 54);
             this.btnMedium.Name = "btnMedium";
             this.btnMedium.Size = new System.Drawing.Size(75, 23);
             this.btnMedium.TabIndex = 2;
@@ -79,7 +85,7 @@
             // btnHigh
             // 
             this.btnHigh.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.btnHigh.Location = new System.Drawing.Point(713, 86);
+            this.btnHigh.Location = new System.Drawing.Point(713, 54);
             this.btnHigh.Name = "btnHigh";
             this.btnHigh.Size = new System.Drawing.Size(75, 23);
             this.btnHigh.TabIndex = 3;
@@ -87,55 +93,133 @@
             this.btnHigh.UseVisualStyleBackColor = false;
             this.btnHigh.Click += new System.EventHandler(this.btnHigh_Click);
             // 
-            // label2
+            // lblHome
             // 
-            this.label2.Location = new System.Drawing.Point(153, 31);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 28);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Outs :   0";
+            this.lblHome.AutoSize = true;
+            this.lblHome.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.lblHome.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHome.Location = new System.Drawing.Point(12, 16);
+            this.lblHome.Name = "lblHome";
+            this.lblHome.Size = new System.Drawing.Size(152, 22);
+            this.lblHome.TabIndex = 5;
+            this.lblHome.Text = "Home Team Score :";
+            // 
+            // lblAway
+            // 
+            this.lblAway.AutoSize = true;
+            this.lblAway.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.lblAway.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblAway.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAway.Location = new System.Drawing.Point(13, 55);
+            this.lblAway.Name = "lblAway";
+            this.lblAway.Size = new System.Drawing.Size(151, 22);
+            this.lblAway.TabIndex = 6;
+            this.lblAway.Text = "Away Team Score : ";
+            // 
+            // lblBall
+            // 
+            this.lblBall.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.lblBall.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblBall.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBall.Location = new System.Drawing.Point(9, 93);
+            this.lblBall.Name = "lblBall";
+            this.lblBall.Size = new System.Drawing.Size(52, 22);
+            this.lblBall.TabIndex = 9;
+            this.lblBall.Text = "Balls :";
+            // 
+            // lblHomeValue
+            // 
+            this.lblHomeValue.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.lblHomeValue.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblHomeValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHomeValue.Location = new System.Drawing.Point(173, 16);
+            this.lblHomeValue.Name = "lblHomeValue";
+            this.lblHomeValue.Size = new System.Drawing.Size(35, 22);
+            this.lblHomeValue.TabIndex = 10;
+            // 
+            // lblAwayValue
+            // 
+            this.lblAwayValue.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.lblAwayValue.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblAwayValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAwayValue.Location = new System.Drawing.Point(173, 57);
+            this.lblAwayValue.Name = "lblAwayValue";
+            this.lblAwayValue.Size = new System.Drawing.Size(35, 22);
+            this.lblAwayValue.TabIndex = 11;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(23, 9);
+            this.label3.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(156, 93);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(117, 13);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Home Team Score :   0";
+            this.label3.Size = new System.Drawing.Size(52, 22);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Outs:";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(153, 9);
+            this.label4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(85, 93);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(115, 13);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Away Team Score :   0";
+            this.label4.Size = new System.Drawing.Size(52, 22);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "Strikes:";
             // 
-            // label5
+            // lblOutValue
             // 
-            this.label5.Location = new System.Drawing.Point(208, 31);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(54, 28);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Inning :   1";
+            this.lblOutValue.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.lblOutValue.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblOutValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOutValue.Location = new System.Drawing.Point(156, 128);
+            this.lblOutValue.Name = "lblOutValue";
+            this.lblOutValue.Size = new System.Drawing.Size(35, 22);
+            this.lblOutValue.TabIndex = 14;
             // 
-            // label6
+            // lblStrikeValue
             // 
-            this.label6.Location = new System.Drawing.Point(80, 31);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(54, 28);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "Strikes :   0";
+            this.lblStrikeValue.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.lblStrikeValue.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblStrikeValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStrikeValue.Location = new System.Drawing.Point(85, 128);
+            this.lblStrikeValue.Name = "lblStrikeValue";
+            this.lblStrikeValue.Size = new System.Drawing.Size(35, 22);
+            this.lblStrikeValue.TabIndex = 15;
             // 
-            // label7
+            // lblBallValue
             // 
-            this.label7.Location = new System.Drawing.Point(22, 31);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(52, 28);
-            this.label7.TabIndex = 9;
-            this.label7.Text = "Balls :    0";
+            this.lblBallValue.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.lblBallValue.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblBallValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBallValue.Location = new System.Drawing.Point(9, 128);
+            this.lblBallValue.Name = "lblBallValue";
+            this.lblBallValue.Size = new System.Drawing.Size(35, 22);
+            this.lblBallValue.TabIndex = 16;
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(277, 16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(52, 22);
+            this.label2.TabIndex = 17;
+            this.label2.Text = "Inning:";
+            // 
+            // lblInningValue
+            // 
+            this.lblInningValue.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.lblInningValue.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblInningValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInningValue.Location = new System.Drawing.Point(335, 16);
+            this.lblInningValue.Name = "lblInningValue";
+            this.lblInningValue.Size = new System.Drawing.Size(35, 22);
+            this.lblInningValue.TabIndex = 18;
             // 
             // HittingView
             // 
@@ -144,12 +228,18 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lblInningValue);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblBallValue);
+            this.Controls.Add(this.lblStrikeValue);
+            this.Controls.Add(this.lblOutValue);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblAwayValue);
+            this.Controls.Add(this.lblHomeValue);
+            this.Controls.Add(this.lblBall);
+            this.Controls.Add(this.lblAway);
+            this.Controls.Add(this.lblHome);
             this.Controls.Add(this.btnHigh);
             this.Controls.Add(this.btnMedium);
             this.Controls.Add(this.btnLow);
@@ -167,12 +257,18 @@
         private System.Windows.Forms.Button btnLow;
         private System.Windows.Forms.Button btnMedium;
         private System.Windows.Forms.Button btnHigh;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblHome;
+        private System.Windows.Forms.Label lblAway;
+        private System.Windows.Forms.Label lblBall;
+        private System.Windows.Forms.Label lblHomeValue;
+        private System.Windows.Forms.Label lblAwayValue;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblOutValue;
+        private System.Windows.Forms.Label lblStrikeValue;
+        private System.Windows.Forms.Label lblBallValue;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblInningValue;
     }
 }
 
