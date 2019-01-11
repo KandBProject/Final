@@ -246,7 +246,6 @@
             this.Controls.Add(this.label1);
             this.Name = "HittingView";
             this.Text = "Hitting";
-            this.Load += new System.EventHandler(this.HittingView_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

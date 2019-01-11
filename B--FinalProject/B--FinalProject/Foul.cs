@@ -144,7 +144,7 @@ namespace B__FinalProject
 
 
             int minHit = 1;
-            int maxHit = 9;
+            int maxHit = 13;
             Random ranNumberG = new Random();
             int randomNumber = ranNumberG.Next(minHit, maxHit);
 
@@ -185,6 +185,31 @@ namespace B__FinalProject
             {
                 lblSafeHigh3.Visible = true;
             }
+            else if (randomNumber == 10)
+            {
+                lblHomeRun1.Visible = true;
+            }
+            else if (randomNumber == 11)
+            {
+                lblHomeRun2.Visible = true;
+            }
+            else if (randomNumber == 12)
+            {
+                lblHomeRun3.Visible = true;
+            }
+            else if (randomNumber == 13)
+            {
+                lblHomeRun4.Visible = true;
+            }
+
+
         }
+
+        private void AerialView_Load(object sender, EventArgs e)
+        {
+
+        }
+
+      
     }
 }

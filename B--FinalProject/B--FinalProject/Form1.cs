@@ -29,12 +29,12 @@ namespace B__FinalProject
             AerialView ar = new AerialView(2);
             ar.ShowDialog();
         }
+
         private void btnHigh_Click(object sender, EventArgs e)
         {
             AerialView ar = new AerialView(3);
             ar.ShowDialog();
         }
-
 
     }
 }
