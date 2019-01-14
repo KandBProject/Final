@@ -63,6 +63,16 @@ namespace B__FinalProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Aerial {
+            get {
+                object obj = ResourceManager.GetObject("Aerial", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BaseballBat {
             get {
                 object obj = ResourceManager.GetObject("BaseballBat", resourceCulture);
@@ -83,7 +93,6 @@ namespace B__FinalProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-
         internal static System.Drawing.Bitmap HittingView {
             get {
                 object obj = ResourceManager.GetObject("HittingView", resourceCulture);

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AerialView));
             this.lblFoulLow1 = new System.Windows.Forms.Label();
             this.lblFoulLow2 = new System.Windows.Forms.Label();
             this.lblFoulMedium1 = new System.Windows.Forms.Label();
@@ -64,7 +63,7 @@
             this.lblFoulLow1.BackColor = System.Drawing.Color.Transparent;
             this.lblFoulLow1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFoulLow1.ForeColor = System.Drawing.Color.Red;
-            this.lblFoulLow1.Location = new System.Drawing.Point(336, 441);
+            this.lblFoulLow1.Location = new System.Drawing.Point(318, 536);
             this.lblFoulLow1.Name = "lblFoulLow1";
             this.lblFoulLow1.Size = new System.Drawing.Size(53, 24);
             this.lblFoulLow1.TabIndex = 0;
@@ -77,7 +76,7 @@
             this.lblFoulLow2.BackColor = System.Drawing.Color.Transparent;
             this.lblFoulLow2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFoulLow2.ForeColor = System.Drawing.Color.Red;
-            this.lblFoulLow2.Location = new System.Drawing.Point(587, 441);
+            this.lblFoulLow2.Location = new System.Drawing.Point(623, 536);
             this.lblFoulLow2.Name = "lblFoulLow2";
             this.lblFoulLow2.Size = new System.Drawing.Size(53, 24);
             this.lblFoulLow2.TabIndex = 1;
@@ -90,7 +89,7 @@
             this.lblFoulMedium1.BackColor = System.Drawing.Color.Transparent;
             this.lblFoulMedium1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFoulMedium1.ForeColor = System.Drawing.Color.Red;
-            this.lblFoulMedium1.Location = new System.Drawing.Point(142, 286);
+            this.lblFoulMedium1.Location = new System.Drawing.Point(138, 406);
             this.lblFoulMedium1.Name = "lblFoulMedium1";
             this.lblFoulMedium1.Size = new System.Drawing.Size(53, 24);
             this.lblFoulMedium1.TabIndex = 2;
@@ -103,7 +102,7 @@
             this.lblFoulHigh1.BackColor = System.Drawing.Color.Transparent;
             this.lblFoulHigh1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFoulHigh1.ForeColor = System.Drawing.Color.Red;
-            this.lblFoulHigh1.Location = new System.Drawing.Point(2, 211);
+            this.lblFoulHigh1.Location = new System.Drawing.Point(0, 286);
             this.lblFoulHigh1.Name = "lblFoulHigh1";
             this.lblFoulHigh1.Size = new System.Drawing.Size(53, 24);
             this.lblFoulHigh1.TabIndex = 3;
@@ -116,7 +115,7 @@
             this.lblFoulHigh2.BackColor = System.Drawing.Color.Transparent;
             this.lblFoulHigh2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFoulHigh2.ForeColor = System.Drawing.Color.Red;
-            this.lblFoulHigh2.Location = new System.Drawing.Point(902, 211);
+            this.lblFoulHigh2.Location = new System.Drawing.Point(943, 297);
             this.lblFoulHigh2.Name = "lblFoulHigh2";
             this.lblFoulHigh2.Size = new System.Drawing.Size(53, 24);
             this.lblFoulHigh2.TabIndex = 4;
@@ -129,7 +128,7 @@
             this.lblFoulMedium2.BackColor = System.Drawing.Color.Transparent;
             this.lblFoulMedium2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFoulMedium2.ForeColor = System.Drawing.Color.Red;
-            this.lblFoulMedium2.Location = new System.Drawing.Point(772, 286);
+            this.lblFoulMedium2.Location = new System.Drawing.Point(837, 406);
             this.lblFoulMedium2.Name = "lblFoulMedium2";
             this.lblFoulMedium2.Size = new System.Drawing.Size(53, 24);
             this.lblFoulMedium2.TabIndex = 5;
@@ -142,7 +141,7 @@
             this.lblSafeLow1.BackColor = System.Drawing.Color.Transparent;
             this.lblSafeLow1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSafeLow1.ForeColor = System.Drawing.Color.Blue;
-            this.lblSafeLow1.Location = new System.Drawing.Point(355, 306);
+            this.lblSafeLow1.Location = new System.Drawing.Point(341, 349);
             this.lblSafeLow1.Name = "lblSafeLow1";
             this.lblSafeLow1.Size = new System.Drawing.Size(52, 24);
             this.lblSafeLow1.TabIndex = 6;
@@ -155,7 +154,7 @@
             this.lblSafeLow2.BackColor = System.Drawing.Color.Transparent;
             this.lblSafeLow2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSafeLow2.ForeColor = System.Drawing.Color.Blue;
-            this.lblSafeLow2.Location = new System.Drawing.Point(558, 306);
+            this.lblSafeLow2.Location = new System.Drawing.Point(586, 349);
             this.lblSafeLow2.Name = "lblSafeLow2";
             this.lblSafeLow2.Size = new System.Drawing.Size(52, 24);
             this.lblSafeLow2.TabIndex = 7;
@@ -168,7 +167,7 @@
             this.lblSafeMedium1.BackColor = System.Drawing.Color.Transparent;
             this.lblSafeMedium1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSafeMedium1.ForeColor = System.Drawing.Color.Blue;
-            this.lblSafeMedium1.Location = new System.Drawing.Point(461, 220);
+            this.lblSafeMedium1.Location = new System.Drawing.Point(479, 155);
             this.lblSafeMedium1.Name = "lblSafeMedium1";
             this.lblSafeMedium1.Size = new System.Drawing.Size(52, 24);
             this.lblSafeMedium1.TabIndex = 8;
@@ -181,7 +180,7 @@
             this.lblSafeMedium2.BackColor = System.Drawing.Color.Transparent;
             this.lblSafeMedium2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSafeMedium2.ForeColor = System.Drawing.Color.Blue;
-            this.lblSafeMedium2.Location = new System.Drawing.Point(608, 220);
+            this.lblSafeMedium2.Location = new System.Drawing.Point(676, 246);
             this.lblSafeMedium2.Name = "lblSafeMedium2";
             this.lblSafeMedium2.Size = new System.Drawing.Size(52, 24);
             this.lblSafeMedium2.TabIndex = 9;
@@ -194,7 +193,7 @@
             this.lblSafeHigh1.BackColor = System.Drawing.Color.Transparent;
             this.lblSafeHigh1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSafeHigh1.ForeColor = System.Drawing.Color.Blue;
-            this.lblSafeHigh1.Location = new System.Drawing.Point(126, 182);
+            this.lblSafeHigh1.Location = new System.Drawing.Point(55, 138);
             this.lblSafeHigh1.Name = "lblSafeHigh1";
             this.lblSafeHigh1.Size = new System.Drawing.Size(52, 24);
             this.lblSafeHigh1.TabIndex = 10;
@@ -207,7 +206,7 @@
             this.lblSafeHigh2.BackColor = System.Drawing.Color.Transparent;
             this.lblSafeHigh2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSafeHigh2.ForeColor = System.Drawing.Color.Blue;
-            this.lblSafeHigh2.Location = new System.Drawing.Point(787, 182);
+            this.lblSafeHigh2.Location = new System.Drawing.Point(933, 138);
             this.lblSafeHigh2.Name = "lblSafeHigh2";
             this.lblSafeHigh2.Size = new System.Drawing.Size(52, 24);
             this.lblSafeHigh2.TabIndex = 11;
@@ -220,7 +219,7 @@
             this.lblOutMedium1.BackColor = System.Drawing.Color.Transparent;
             this.lblOutMedium1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOutMedium1.ForeColor = System.Drawing.Color.Red;
-            this.lblOutMedium1.Location = new System.Drawing.Point(276, 286);
+            this.lblOutMedium1.Location = new System.Drawing.Point(190, 336);
             this.lblOutMedium1.Name = "lblOutMedium1";
             this.lblOutMedium1.Size = new System.Drawing.Size(45, 24);
             this.lblOutMedium1.TabIndex = 12;
@@ -233,7 +232,7 @@
             this.lblOutMedium2.BackColor = System.Drawing.Color.Transparent;
             this.lblOutMedium2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOutMedium2.ForeColor = System.Drawing.Color.Red;
-            this.lblOutMedium2.Location = new System.Drawing.Point(374, 220);
+            this.lblOutMedium2.Location = new System.Drawing.Point(381, 182);
             this.lblOutMedium2.Name = "lblOutMedium2";
             this.lblOutMedium2.Size = new System.Drawing.Size(45, 24);
             this.lblOutMedium2.TabIndex = 13;
@@ -246,7 +245,7 @@
             this.lblOutMedium3.BackColor = System.Drawing.Color.Transparent;
             this.lblOutMedium3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOutMedium3.ForeColor = System.Drawing.Color.Red;
-            this.lblOutMedium3.Location = new System.Drawing.Point(647, 276);
+            this.lblOutMedium3.Location = new System.Drawing.Point(755, 336);
             this.lblOutMedium3.Name = "lblOutMedium3";
             this.lblOutMedium3.Size = new System.Drawing.Size(45, 24);
             this.lblOutMedium3.TabIndex = 14;
@@ -259,7 +258,7 @@
             this.lblOutLow.BackColor = System.Drawing.Color.Transparent;
             this.lblOutLow.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOutLow.ForeColor = System.Drawing.Color.Red;
-            this.lblOutLow.Location = new System.Drawing.Point(461, 384);
+            this.lblOutLow.Location = new System.Drawing.Point(479, 368);
             this.lblOutLow.Name = "lblOutLow";
             this.lblOutLow.Size = new System.Drawing.Size(45, 24);
             this.lblOutLow.TabIndex = 15;
@@ -272,7 +271,7 @@
             this.lblSafeHigh3.BackColor = System.Drawing.Color.Transparent;
             this.lblSafeHigh3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSafeHigh3.ForeColor = System.Drawing.Color.Blue;
-            this.lblSafeHigh3.Location = new System.Drawing.Point(355, 117);
+            this.lblSafeHigh3.Location = new System.Drawing.Point(341, 54);
             this.lblSafeHigh3.Name = "lblSafeHigh3";
             this.lblSafeHigh3.Size = new System.Drawing.Size(52, 24);
             this.lblSafeHigh3.TabIndex = 16;
@@ -285,7 +284,7 @@
             this.lblSafeHigh4.BackColor = System.Drawing.Color.Transparent;
             this.lblSafeHigh4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSafeHigh4.ForeColor = System.Drawing.Color.Blue;
-            this.lblSafeHigh4.Location = new System.Drawing.Point(558, 117);
+            this.lblSafeHigh4.Location = new System.Drawing.Point(586, 54);
             this.lblSafeHigh4.Name = "lblSafeHigh4";
             this.lblSafeHigh4.Size = new System.Drawing.Size(52, 24);
             this.lblSafeHigh4.TabIndex = 17;
@@ -298,7 +297,7 @@
             this.lblSafeMedium3.BackColor = System.Drawing.Color.Transparent;
             this.lblSafeMedium3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSafeMedium3.ForeColor = System.Drawing.Color.Blue;
-            this.lblSafeMedium3.Location = new System.Drawing.Point(288, 220);
+            this.lblSafeMedium3.Location = new System.Drawing.Point(259, 246);
             this.lblSafeMedium3.Name = "lblSafeMedium3";
             this.lblSafeMedium3.Size = new System.Drawing.Size(52, 24);
             this.lblSafeMedium3.TabIndex = 18;
@@ -311,7 +310,7 @@
             this.lblOutHigh3.BackColor = System.Drawing.Color.Transparent;
             this.lblOutHigh3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOutHigh3.ForeColor = System.Drawing.Color.Red;
-            this.lblOutHigh3.Location = new System.Drawing.Point(683, 117);
+            this.lblOutHigh3.Location = new System.Drawing.Point(787, 73);
             this.lblOutHigh3.Name = "lblOutHigh3";
             this.lblOutHigh3.Size = new System.Drawing.Size(45, 24);
             this.lblOutHigh3.TabIndex = 19;
@@ -324,7 +323,7 @@
             this.lblOutHigh2.BackColor = System.Drawing.Color.Transparent;
             this.lblOutHigh2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOutHigh2.ForeColor = System.Drawing.Color.Red;
-            this.lblOutHigh2.Location = new System.Drawing.Point(461, 73);
+            this.lblOutHigh2.Location = new System.Drawing.Point(465, 54);
             this.lblOutHigh2.Name = "lblOutHigh2";
             this.lblOutHigh2.Size = new System.Drawing.Size(45, 24);
             this.lblOutHigh2.TabIndex = 20;
@@ -337,7 +336,7 @@
             this.lblOutHigh1.BackColor = System.Drawing.Color.Transparent;
             this.lblOutHigh1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOutHigh1.ForeColor = System.Drawing.Color.Red;
-            this.lblOutHigh1.Location = new System.Drawing.Point(216, 117);
+            this.lblOutHigh1.Location = new System.Drawing.Point(190, 73);
             this.lblOutHigh1.Name = "lblOutHigh1";
             this.lblOutHigh1.Size = new System.Drawing.Size(45, 24);
             this.lblOutHigh1.TabIndex = 21;
@@ -350,7 +349,7 @@
             this.lblOutMedium4.BackColor = System.Drawing.Color.Transparent;
             this.lblOutMedium4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOutMedium4.ForeColor = System.Drawing.Color.Red;
-            this.lblOutMedium4.Location = new System.Drawing.Point(545, 220);
+            this.lblOutMedium4.Location = new System.Drawing.Point(565, 182);
             this.lblOutMedium4.Name = "lblOutMedium4";
             this.lblOutMedium4.Size = new System.Drawing.Size(45, 24);
             this.lblOutMedium4.TabIndex = 22;
@@ -376,7 +375,7 @@
             this.lblHomeRun4.BackColor = System.Drawing.Color.Transparent;
             this.lblHomeRun4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHomeRun4.ForeColor = System.Drawing.Color.Blue;
-            this.lblHomeRun4.Location = new System.Drawing.Point(811, 51);
+            this.lblHomeRun4.Location = new System.Drawing.Point(860, 9);
             this.lblHomeRun4.Name = "lblHomeRun4";
             this.lblHomeRun4.Size = new System.Drawing.Size(95, 24);
             this.lblHomeRun4.TabIndex = 24;
@@ -402,7 +401,7 @@
             this.lblHomeRun1.BackColor = System.Drawing.Color.Transparent;
             this.lblHomeRun1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHomeRun1.ForeColor = System.Drawing.Color.Blue;
-            this.lblHomeRun1.Location = new System.Drawing.Point(62, 51);
+            this.lblHomeRun1.Location = new System.Drawing.Point(12, 9);
             this.lblHomeRun1.Name = "lblHomeRun1";
             this.lblHomeRun1.Size = new System.Drawing.Size(95, 24);
             this.lblHomeRun1.TabIndex = 26;
@@ -413,9 +412,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-
+            this.BackgroundImage = global::B__FinalProject.Properties.Resources.Aerial;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(967, 634);
+            this.ClientSize = new System.Drawing.Size(997, 657);
             this.Controls.Add(this.lblHomeRun1);
             this.Controls.Add(this.lblHomeRun3);
             this.Controls.Add(this.lblHomeRun4);
