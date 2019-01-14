@@ -45,6 +45,8 @@
             this.lblBallValue = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lblInningValue = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lblPlayersOnBase = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -205,7 +207,7 @@
             this.label2.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(277, 16);
+            this.label2.Location = new System.Drawing.Point(242, 18);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(52, 22);
             this.label2.TabIndex = 17;
@@ -216,10 +218,31 @@
             this.lblInningValue.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.lblInningValue.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblInningValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInningValue.Location = new System.Drawing.Point(335, 16);
+            this.lblInningValue.Location = new System.Drawing.Point(300, 18);
             this.lblInningValue.Name = "lblInningValue";
             this.lblInningValue.Size = new System.Drawing.Size(35, 22);
             this.lblInningValue.TabIndex = 18;
+            // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(242, 54);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(119, 22);
+            this.label5.TabIndex = 19;
+            this.label5.Text = "Players on Base:";
+            // 
+            // lblPlayersOnBase
+            // 
+            this.lblPlayersOnBase.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.lblPlayersOnBase.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblPlayersOnBase.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlayersOnBase.Location = new System.Drawing.Point(367, 54);
+            this.lblPlayersOnBase.Name = "lblPlayersOnBase";
+            this.lblPlayersOnBase.Size = new System.Drawing.Size(35, 22);
+            this.lblPlayersOnBase.TabIndex = 20;
             // 
             // HittingView
             // 
@@ -228,6 +251,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblPlayersOnBase);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.lblInningValue);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblBallValue);
@@ -269,6 +294,8 @@
         private System.Windows.Forms.Label lblBallValue;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblInningValue;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblPlayersOnBase;
     }
 }
 
