@@ -14,6 +14,7 @@ namespace B__FinalProject
     {
         private System.Windows.Forms.Timer tmr;
 
+
         public AerialView(int x)
         {
 
@@ -41,11 +42,8 @@ namespace B__FinalProject
          
             //int Out;
             //int FoulBall;
-            //int Strike;
             //int Safe;
 
-            //int minPlay = 1;
-            //int MaxPlay = 4;
 
 
             int minHit = 1;
@@ -75,6 +73,7 @@ namespace B__FinalProject
                 {
                     lblOutLow.Visible = true;
                 }
+
         }
         public void medPower()
         {
@@ -185,31 +184,6 @@ namespace B__FinalProject
             {
                 lblSafeHigh3.Visible = true;
             }
-            else if (randomNumber == 10)
-            {
-                lblHomeRun1.Visible = true;
-            }
-            else if (randomNumber == 11)
-            {
-                lblHomeRun2.Visible = true;
-            }
-            else if (randomNumber == 12)
-            {
-                lblHomeRun3.Visible = true;
-            }
-            else if (randomNumber == 13)
-            {
-                lblHomeRun4.Visible = true;
-            }
 
-
-        }
-
-        private void AerialView_Load(object sender, EventArgs e)
-        {
-
-        }
-
-      
     }
 }
