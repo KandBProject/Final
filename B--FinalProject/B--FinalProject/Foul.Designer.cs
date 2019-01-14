@@ -415,7 +415,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(967, 581);
+            this.ClientSize = new System.Drawing.Size(967, 634);
             this.Controls.Add(this.lblHomeRun1);
             this.Controls.Add(this.lblHomeRun3);
             this.Controls.Add(this.lblHomeRun4);
