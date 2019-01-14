@@ -185,5 +185,5 @@ namespace B__FinalProject
                 lblSafeHigh3.Visible = true;
             }
 
+        }
     }
-}
