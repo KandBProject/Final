@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AerialView));
             this.lblFoulLow1 = new System.Windows.Forms.Label();
             this.lblFoulLow2 = new System.Windows.Forms.Label();
             this.lblFoulMedium1 = new System.Windows.Forms.Label();
@@ -412,6 +413,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(967, 581);
             this.Controls.Add(this.lblHomeRun1);
