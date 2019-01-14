@@ -148,63 +148,12 @@ namespace B__FinalProject
             lblHomeValue.Text = "" + HomeScore;
             lblPlayersOnBase.Text = "" + Players;
         }
+
         private void btnHigh_Click(object sender, EventArgs e)
         {
             int minPlay = 1;
             int maxPlay = 4;
 
-            Random StrikeBallHit = new Random();
-            int play = StrikeBallHit.Next(minPlay, maxPlay);
 
-            if (play == 1)
-            {
-                //strike
-                Strike++;
-            }
-            else if (play == 2)
-            {
-                //hit
-                AerialView ar = new AerialView(1);
-                ar.ShowDialog();
-                Strike = 0;
-                Ball = 0;
-            }
-            else if (play == 3)
-            {
-                //Ball
-                Ball++;
-            }
-            if (Strike == 3)
-            {
-                //Out
-                Out++;
-                Strike = 0;
-                Ball = 0;
-            }
-            if (Out == 3)
-            {
-                Inning++;
-                Out = 0;
-            }
-            if (Ball == 4)
-            {
-                Players++;
-                Ball = 0;
-                Strike = 0;
-            }
-            if (Players == 4)
-            {
-                HomeScore++;
-                Players = 0;
-                Ball = 0;
-                Strike = 0;
-            }
-            lblStrikeValue.Text = "" + Strike;
-            lblBallValue.Text = "" + Ball;
-            lblOutValue.Text = "" + Out;
-            lblInningValue.Text = "" + Inning;
-            lblHomeValue.Text = "" + HomeScore;
-            lblPlayersOnBase.Text = "" + Players;
-        }
     }
 }

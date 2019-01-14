@@ -143,7 +143,7 @@ namespace B__FinalProject
 
 
             int minHit = 1;
-            int maxHit = 9;
+            int maxHit = 13;
             Random ranNumberG = new Random();
             int randomNumber = ranNumberG.Next(minHit, maxHit);
 
@@ -184,6 +184,6 @@ namespace B__FinalProject
             {
                 lblSafeHigh3.Visible = true;
             }
-        }       
+
     }
 }
