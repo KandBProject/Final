@@ -21,77 +21,98 @@ namespace B__FinalProject
             InitializeComponent();
             if (x == 1)
             {
-                LowPower();
+                LowPowerFoul();
             }
-            if (x == 2) {
-                medPower();
+            if (x == 2)
+            {
+                LowPowerOut();
             }
             if (x == 3)
             {
-                highPower();
+                LowPowerSafe();
+            }
+            if (x == 4)
+            {
+                medPowerFoul();
+            }
+            if (x == 5)
+            {
+                medPowerOut();
+            }
+            if (x == 6)
+            {
+                medPowerSafe();
+            }
+            if (x == 7)
+            {
+                highPowerFoul();
+            }
+            if (x == 8)
+            {
+                highPowerOut();
+            }
+            if (x == 9)
+            {
+                highPowerSafe();
+            }
+            if (x == 10)
+            {
+                homerun();
             }
             tmr = new System.Windows.Forms.Timer();
-            tmr.Tick += delegate {
+            tmr.Tick += delegate
+            {
                 this.Close();
             };
             tmr.Interval = (int)TimeSpan.FromSeconds(2.3).TotalMilliseconds;
             tmr.Start();
         }
-        public void LowPower()
+        public void LowPowerFoul()
         {
-         
-            //int Out;
-            //int FoulBall;
-            //int Safe;
-
-
-
             int minHit = 1;
-            int maxHit = 5;
+            int maxHit = 2;
             Random ranNumberG = new Random();
             int randomNumber = ranNumberG.Next(minHit, maxHit);
 
 
 
-                if (randomNumber == 1)
-                {
-                    lblFoulLow1.Visible = true;
-                }
-                else if (randomNumber == 2)
-                {
-                    lblFoulLow2.Visible = true;
-                }
-                else if (randomNumber == 3)
-                {
-                    lblSafeLow1.Visible = true;
-                }
-                else if (randomNumber == 4)
-                {
-                    lblSafeLow2.Visible = true;
-                }
-                else if (randomNumber == 5)
-                {
-                    lblOutLow.Visible = true;
-                }
-
+            if (randomNumber == 1)
+            {
+                lblFoulLow1.Visible = true;
+            }
+            else if (randomNumber == 2)
+            {
+                lblFoulLow2.Visible = true;
+            }
         }
-        public void medPower()
+        public void LowPowerSafe()
         {
-            //int Out;
-            //int FoulBall;
-            //int Strike;
-            //int Safe;
-
-            //int minPlay = 1;
-            //int MaxPlay = 4;
-
-
             int minHit = 1;
-            int maxHit = 9;
+            int maxHit = 2;
+
+
             Random ranNumberG = new Random();
             int randomNumber = ranNumberG.Next(minHit, maxHit);
+            if (randomNumber == 1)
+             {
+                lblSafeLow1.Visible = true;
+             }
+             else if (randomNumber == 2)
+             {
+                lblSafeLow2.Visible = true;
+             }
+        }
+        public void LowPowerOut()
+        {
+            lblOutLow.Visible = true;
+        }
+        public void medPowerFoul()
+        {
+            int minHit = 1;
+            int maxHit = 2;
 
-
+            Random ranNumberG = new Random();
+            int randomNumber = ranNumberG.Next(minHit, maxHit);
 
             if (randomNumber == 1)
             {
@@ -101,49 +122,57 @@ namespace B__FinalProject
             {
                 lblFoulMedium2.Visible = true;
             }
-            else if (randomNumber == 3)
+        }
+        public void medPowerOut()
+        {
+            int minHit = 1;
+            int maxHit = 4;
+
+            Random ranNumberG = new Random();
+            int randomNumber = ranNumberG.Next(minHit, maxHit);
+
+            if (randomNumber == 1)
             {
                 lblOutMedium1.Visible = true;
             }
-            else if (randomNumber == 4)
+            else if (randomNumber == 2)
             {
                 lblOutMedium2.Visible = true;
             }
-            else if (randomNumber == 5)
+            else if (randomNumber == 3)
             {
                 lblOutMedium3.Visible = true;
             }
-            else if (randomNumber == 6)
+            else if (randomNumber == 4)
             {
                 lblOutMedium4.Visible = true;
             }
-            else if (randomNumber == 7)
+        }
+        public void medPowerSafe()
+        {
+            int minHit = 1;
+            int maxHit = 3;
+            Random ranNumberG = new Random();
+            int randomNumber = ranNumberG.Next(minHit, maxHit);
+
+
+            if (randomNumber == 1)
             {
                 lblSafeMedium1.Visible = true;
             }
-            else if (randomNumber == 8)
+            else if (randomNumber == 2)
             {
                 lblSafeMedium2.Visible = true;
             }
-            else if (randomNumber == 9)
+            else if (randomNumber == 3)
             {
                 lblSafeMedium3.Visible = true;
             }
-
         }
-        public void highPower()
+        public void highPowerFoul()
         {
-            //int Out;
-            //int FoulBall;
-            //int Strike;
-            //int Safe;
-
-            //int minPlay = 1;
-            //int MaxPlay = 4;
-
-
             int minHit = 1;
-            int maxHit = 13;
+            int maxHit = 2;
             Random ranNumberG = new Random();
             int randomNumber = ranNumberG.Next(minHit, maxHit);
 
@@ -156,34 +185,76 @@ namespace B__FinalProject
             {
                 lblFoulHigh2.Visible = true;
             }
-            else if (randomNumber == 3)
+        }
+        public void highPowerOut()
+        {
+            int minHit = 1;
+            int maxHit = 3;
+            Random ranNumberG = new Random();
+            int randomNumber = ranNumberG.Next(minHit, maxHit);
+
+            if (randomNumber == 1)
             {
                 lblOutHigh1.Visible = true;
             }
-            else if (randomNumber == 4)
+            else if (randomNumber == 2)
             {
                 lblOutHigh2.Visible = true;
             }
-            else if (randomNumber == 5)
+            else if (randomNumber == 3)
             {
                 lblOutHigh3.Visible = true;
             }
-            else if (randomNumber == 6)
+        }
+        public void highPowerSafe()
+        {
+            int minHit = 1;
+            int maxHit = 4;
+            Random ranNumberG = new Random();
+            int randomNumber = ranNumberG.Next(minHit, maxHit);
+
+            if (randomNumber == 1)
             {
                 lblSafeHigh1.Visible = true;
             }
-            else if (randomNumber == 7)
+            else if (randomNumber == 2)
             {
                 lblSafeHigh2.Visible = true;
             }
-            else if (randomNumber == 8)
+            else if (randomNumber == 3)
             {
                 lblSafeHigh3.Visible = true;
             }
-            else if (randomNumber == 9)
+            else if (randomNumber == 4)
             {
                 lblSafeHigh3.Visible = true;
             }
 
         }
+        public void homerun()
+        {
+            int minHit = 1;
+            int maxHit = 4;
+            Random ranNumberG = new Random();
+            int randomNumber = ranNumberG.Next(minHit, maxHit);
+
+            if (randomNumber == 1)
+            {
+                lblHomeRun1.Visible = true;
+            }
+            else if (randomNumber == 2)
+            {
+                lblHomeRun2.Visible = true;
+            }
+            else if (randomNumber == 3)
+            {
+                lblHomeRun3.Visible = true;
+            }
+            else if (randomNumber == 4)
+            {
+                lblHomeRun4.Visible = true;
+            }
+        }
+
     }
+}

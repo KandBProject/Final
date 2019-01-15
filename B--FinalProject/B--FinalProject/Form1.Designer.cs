@@ -55,7 +55,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(511, 19);
+            this.label1.Location = new System.Drawing.Point(676, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(277, 16);
             this.label1.TabIndex = 0;
@@ -65,7 +65,7 @@
             // 
             this.btnLow.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.btnLow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnLow.Location = new System.Drawing.Point(514, 54);
+            this.btnLow.Location = new System.Drawing.Point(679, 52);
             this.btnLow.Name = "btnLow";
             this.btnLow.Size = new System.Drawing.Size(75, 23);
             this.btnLow.TabIndex = 1;
@@ -76,7 +76,7 @@
             // btnMedium
             // 
             this.btnMedium.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.btnMedium.Location = new System.Drawing.Point(616, 54);
+            this.btnMedium.Location = new System.Drawing.Point(778, 52);
             this.btnMedium.Name = "btnMedium";
             this.btnMedium.Size = new System.Drawing.Size(75, 23);
             this.btnMedium.TabIndex = 2;
@@ -87,7 +87,7 @@
             // btnHigh
             // 
             this.btnHigh.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.btnHigh.Location = new System.Drawing.Point(713, 54);
+            this.btnHigh.Location = new System.Drawing.Point(878, 52);
             this.btnHigh.Name = "btnHigh";
             this.btnHigh.Size = new System.Drawing.Size(75, 23);
             this.btnHigh.TabIndex = 3;
@@ -250,7 +250,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(965, 589);
             this.Controls.Add(this.lblPlayersOnBase);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lblInningValue);

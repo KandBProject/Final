@@ -90,9 +90,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Aerial.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\HittingView.bmp" />
   </ItemGroup>
   <ItemGroup>
@@ -112,6 +109,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\better field.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aerial.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

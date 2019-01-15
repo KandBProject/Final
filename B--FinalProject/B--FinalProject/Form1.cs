@@ -21,10 +21,16 @@ namespace B__FinalProject
         int minScore = 0;
         int maxScore = 7;
         int Away = 0;
+
         public HittingView()
         {
             InitializeComponent();
-
+            if (Out == 3)
+            {
+                Random Score = new Random();
+                int score = Score.Next(minScore, maxScore);
+                lblAwayValue.Text = "" + score;
+            }
         }
         public void btnLow_Click(object sender, EventArgs e)
         {
@@ -33,7 +39,7 @@ namespace B__FinalProject
 
             Random StrikeBallHit = new Random();
             int play = StrikeBallHit.Next(minPlay, maxPlay);
-            
+
             if (play == 1)
             {
                 //strike
@@ -42,18 +48,39 @@ namespace B__FinalProject
             else if (play == 2)
             {
                 //hit
-                AerialView ar = new AerialView(1);
-                ar.ShowDialog();
-                Strike = 0;
-                Ball = 0;
-                Players++;
+                int minHit = 1;
+                int maxHit = 3;
+                Random HitorMiss = new Random();
+                int StrikeFoulOut = HitorMiss.Next(minHit, maxHit);
+                if (StrikeFoulOut == 1)
+                {
+                    AerialView ar = new AerialView(1);
+                    ar.ShowDialog();
+                    Strike++;
+                }
+                else if (StrikeFoulOut == 2)
+                {
+                    AerialView ar = new AerialView(2);
+                    ar.ShowDialog();
+                    Out++;
+                    Strike = 0;
+                    Ball = 0;
+                }
+                else if (StrikeFoulOut == 3)
+                {
+                    AerialView ar = new AerialView(3);
+                    ar.ShowDialog();
+                    Players++;
+                    Strike = 0;
+                    Ball = 0;
+                }
             }
             else if (play == 3)
             {
                 //Ball
                 Ball++;
             }
-            if(Strike == 3)
+            if (Strike == 3)
             {
                 //Out
                 Out++;
@@ -66,7 +93,7 @@ namespace B__FinalProject
                 Out = 0;
                 Random AwayScore = new Random();
                 Away = AwayScore.Next(minScore, maxScore);
-
+                Players = 0;
             }
             if (Ball == 4)
             {
@@ -74,7 +101,7 @@ namespace B__FinalProject
                 Ball = 0;
                 Strike = 0;
             }
-            if(Players == 4)
+            if (Players == 4)
             {
                 HomeScore++;
                 Players = 3;
@@ -106,10 +133,32 @@ namespace B__FinalProject
             else if (play == 2)
             {
                 //hit
-                AerialView ar = new AerialView(1);
-                ar.ShowDialog();
-                Strike = 0;
-                Ball = 0;
+                int minHit = 1;
+                int maxHit = 3;
+                Random HitorMiss = new Random();
+                int StrikeFoulOut = HitorMiss.Next(minHit, maxHit);
+                if (StrikeFoulOut == 1)
+                {
+                    AerialView ar = new AerialView(4);
+                    ar.ShowDialog();
+                    Strike++;
+                }
+                else if (StrikeFoulOut == 2)
+                {
+                    AerialView ar = new AerialView(5);
+                    ar.ShowDialog();
+                    Out++;
+                    Strike = 0;
+                    Ball = 0;
+                }
+                else if (StrikeFoulOut == 3)
+                {
+                    AerialView ar = new AerialView(6);
+                    ar.ShowDialog();
+                    Players++;
+                    Strike = 0;
+                    Ball = 0;
+                }
             }
             else if (play == 3)
             {
@@ -127,6 +176,7 @@ namespace B__FinalProject
             {
                 Inning++;
                 Out = 0;
+                Players = 0;
             }
             if (Ball == 4)
             {
@@ -154,6 +204,103 @@ namespace B__FinalProject
             int minPlay = 1;
             int maxPlay = 4;
 
+            Random StrikeBallHit = new Random();
+            int play = StrikeBallHit.Next(minPlay, maxPlay);
 
+            if (play == 1)
+            {
+                //strike
+                Strike++;
+            }
+            else if (play == 2)
+            {
+                //hit
+                int minHit = 1;
+                int maxHit = 6;
+                Random HitorMiss = new Random();
+                int StrikeFoulOut = HitorMiss.Next(minHit, maxHit);
+
+                if (StrikeFoulOut == 1)
+                {
+                    AerialView ar = new AerialView(7);
+                    ar.ShowDialog();
+                    Strike++;
+                }
+                else if (StrikeFoulOut == 2)
+                {
+                    AerialView ar = new AerialView(8);
+                    ar.ShowDialog();
+                    Out++;
+                    Strike = 0;
+                    Ball = 0;
+                }
+                else if (StrikeFoulOut == 3)
+                {
+                    AerialView ar = new AerialView(9);
+                    ar.ShowDialog();
+                    Players++;
+                    Strike = 0;
+                    Ball = 0;
+                }
+                else if (StrikeFoulOut == 4)
+                {
+                    AerialView ar = new AerialView(10);
+                    ar.ShowDialog();
+                    HomeScore = Players + 1;
+                }
+                else if (StrikeFoulOut == 5)
+                {
+                    AerialView ar = new AerialView(9);
+                    ar.ShowDialog();
+                    Players++;
+                    Strike = 0;
+                    Ball = 0;
+                }
+                else if (StrikeFoulOut == 6)
+                {
+                    AerialView ar = new AerialView(7);
+                    ar.ShowDialog();
+                    Strike++;
+                }
+
+            }
+            else if (play == 3)
+            {
+                //Ball
+                Ball++;
+            }
+            if (Strike == 3)
+            {
+                //Out
+                Out++;
+                Strike = 0;
+                Ball = 0;
+            }
+            if (Out == 3)
+            {
+                Inning++;
+                Out = 0;
+                Players = 0;
+            }
+            if (Ball == 4)
+            {
+                Players++;
+                Ball = 0;
+                Strike = 0;
+            }
+            if (Players == 4)
+            {
+                HomeScore++;
+                Players = 0;
+                Ball = 0;
+                Strike = 0;
+            }
+            lblStrikeValue.Text = "" + Strike;
+            lblBallValue.Text = "" + Ball;
+            lblOutValue.Text = "" + Out;
+            lblInningValue.Text = "" + Inning;
+            lblHomeValue.Text = "" + HomeScore;
+            lblPlayersOnBase.Text = "" + Players;
+        }
     }
 }
