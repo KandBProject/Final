@@ -19,7 +19,7 @@ namespace B__FinalProject
         int Players = 0;
         int HomeScore = 0;
         int minScore = 0;
-        int maxScore = 7;
+        int maxScore = 5;
         int Away = 0;
 
         public HittingView()
@@ -246,7 +246,8 @@ namespace B__FinalProject
                 {
                     AerialView ar = new AerialView(10);
                     ar.ShowDialog();
-                    HomeScore = Players + 1;
+                    int Homerun = Players + 1;
+                    HomeScore = HomeScore + Homerun;
                 }
                 else if (StrikeFoulOut == 5)
                 {
