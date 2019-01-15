@@ -12,6 +12,9 @@
 <hr>
 <h3>Built With</h3>
 <p>This game was built with Microsoft Visual Studio 2017</p>
+<img src="https://github.com/KandBProject/Final/blob/master/Images/Capture1.PNG">
+<img src="https://github.com/KandBProject/Final/blob/master/Images/Capture2.PNG">
+<img src="https://github.com/KandBProject/Final/blob/master/Images/Capture3.PNG">
 <hr>
 <h3>Authors</h3>
 <p>Brendan Camplese</p>
